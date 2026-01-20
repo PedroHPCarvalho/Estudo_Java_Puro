@@ -51,7 +51,6 @@ public class ConsolidSolution {
     for(int num : nums){
       if(hashNum.contains(num)){
         return true;
-        nums
       }
       hashNum.add(num);
     }

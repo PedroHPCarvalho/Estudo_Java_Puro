@@ -27,7 +27,7 @@ package LeetCodeProblems.anagramproblem;
 
 public class ConsolidSolution {
   public static void main(String[] args){
-    AnagramVerification("ola", "ola")
+    AnagramVerification("ola", "ola");
   }
 
   public static boolean AnagramVerification(String s, String t){
