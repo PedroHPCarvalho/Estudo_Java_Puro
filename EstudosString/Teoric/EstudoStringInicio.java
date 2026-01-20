@@ -1,4 +1,4 @@
-package EstudosString.Teoria;
+package EstudosString.Teoric;
 import java.util.Arrays;
 
 public class EstudoStringInicio{

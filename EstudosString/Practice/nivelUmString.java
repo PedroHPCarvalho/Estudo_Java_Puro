@@ -1,4 +1,4 @@
-package EstudosString.Pratica;
+package EstudosString.Practice;
 
 public class nivelUmString {
   public static void main(String[] args){
