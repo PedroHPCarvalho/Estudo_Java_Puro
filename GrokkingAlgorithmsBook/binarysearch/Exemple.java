@@ -2,8 +2,8 @@ package GrokkingAlgorithmsBook.binarysearch;
 
 public class Exemple{
   public static void main(String[] args){
-    int[] list = {1,2,3,4,5};
-    int target = 1; 
+    int[] list = {1,3,5,7,9};
+    int target = 3; 
     System.out.println(binarySearch(list, target));
   }
 
@@ -14,7 +14,7 @@ public class Exemple{
     //baixo representa o menor valor de procura intervalo 
     //alto o maior valor no intervalo de procura
     int baixo = 0;
-    int alto = list.length;
+    int alto = list.length - 1;
     //Vamos criar um laço de repetição onde serão feitas as etapas para a busca, a condição será o seguinte: enquanto baixo for menor ou igual que alto continue rodando; baixo <= alto
     while (baixo <= alto){
       //no inicio da iteração vamos calcular o meio do intervalo de procura
@@ -35,7 +35,7 @@ public class Exemple{
       if (chute < target){
         baixo = meio + 1;
       }
-      System.out.println(chute);   
+      System.out.println("Valor do chute: "+chute);   
     }
   // Caso não exista item, retorna none
   return -1;
