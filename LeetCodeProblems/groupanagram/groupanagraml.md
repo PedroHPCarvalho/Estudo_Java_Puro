@@ -67,3 +67,5 @@ Passo a passo que defini:
    - constitution: Cria uma representação canônica (string code) para cada string baseada na contagem de caracteres.
    - generateStringCode: Gera uma string única que representa a contagem de cada caractere na string. na ordem do alfabeto.
   - groupAnagrams: Agrupa as strings em anagramas usando um HashMap.
+
+  ![alt text](image.png)

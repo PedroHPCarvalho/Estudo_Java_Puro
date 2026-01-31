@@ -58,14 +58,12 @@ public class Solution {
     for(int num : numsA){
       intersectionSet.add(num);
     }
-    System.out.println(intersectionSet);
     //Iterar sobre o num2 subtraindo os valores que ele não contenha do hash, a ideia é ficar apenas os valores que existem nos 2 arrays
     for(int num2 : numsB){
       if(intersectionSet.contains(num2)){
         finalTest.add(num2);
       }
     }
-    System.out.println(intersectionSet);
     //Antes de retornar, precisamos transformar o hashSet em um array ordanado de forma crescente
     int[] finalArray = new int[finalTest.size()];
     int index = 0;
