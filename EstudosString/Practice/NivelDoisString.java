@@ -18,10 +18,5 @@ public class NivelDoisString {
     // a b b a
     int ponteiroI = 0;
     int ponteiroJ = 0;
-
-    for(str1.length() || str2.length()){
-      
-    }
-
   }
 }
